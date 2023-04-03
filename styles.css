@@ -38,3 +38,51 @@
   padding: 10px;
   margin-bottom: 20px;
 }
+
+.productos-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.producto {
+  flex-basis: 30%;
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.producto img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .producto {
+    flex-basis: 45%;
+  }
+}
+
+body {
+  background-image: url("fondo-estrellas.gif");
+  text-align: center;
+}
+.box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #7e7c7c91;
+  display: inline-block;
+}
+.box h1 {
+  margin-top: 0;
+}
+.box h2 {
+  margin-top: 0;
+}
+
+.descripcion {
+  display: none;
+  margin-top: 10px;
+  font-style: italic;
+}
